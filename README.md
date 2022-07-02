@@ -1,10 +1,3 @@
-# Exogenesis
-A mod that adds a lot more content to the game.
-<br>I just hope you guys enjoy my mod.
-
-
-## The mod adds: 
-`Items`: 9
-<br>`Blocks`: 82
-<br>`Turrets`: 39
-<br>`units`: 40
+# SMoA-Modpack
+Данный модпак создан из модов: ExoGenesis, Conglomerate, TurretsMod
+ВНИМАНИЕ! Все авторские права принадлежат создателям модов. Я не являюсь владельцем вышеперечисленных модов, я лишь объединил их для компактности в 1 zip файл
