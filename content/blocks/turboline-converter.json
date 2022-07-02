@@ -1,0 +1,27 @@
+{
+	"name": "Turboline Converter",
+	"type": "GenericCrafter",
+	"description": "Breaks creoseum and thorium into particles and assembles ready to use turboline crystals. Requires high amount of energy",
+	"hasPower": true,
+	"health": 8000,
+	"size": 4,
+	"hasLiquids": false,
+	"craftTime": 500,
+	"itemCapacity": 900,
+	"consumes": {
+		"power": 20,
+		"items": {
+			"items": [
+				{"item": "creoseum-kernel", "amount": 50},
+				{"item": "thorium", "amount": 100}
+			]
+		},
+	},
+	"requirements": [
+		{"item": "creoseum-kernel", "amount": 10},
+		{"item": "thorium", "amount": 100}
+	],
+	"category": "crafting",
+	"research": "creoseum-assembler",
+	"outputItem": {"item": "turboline", "amount": 1}
+}

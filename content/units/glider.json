@@ -1,0 +1,47 @@
+{
+	"name": "[#fefe22]Glider-M",
+        "type": "payload",
+	"description": "Heavy armed and armored universal air destroyer. Have catastrophic firepower and build/mining speed.",
+	"speed": 6.5,
+	"boostSpeed": 0.5,
+        "armor": 100,
+        "flying": true,
+	"buildSpeed": 250,
+	"engineColor": "fefe22",
+	"engineSize": 0.1,
+	"engineOffsetY": -4,
+	"drillPower": 50.0,
+	"mineTier": 50.0,
+	"mineSpeed": 500.0,
+	"itemCapacity": 1000,
+	"payloadCapacity": 2500,
+	"health": 50000,
+        "weapons": [
+    {
+      "name": "turboline-blaster",
+      "x": -1,
+      "reload": 15,
+      "recoil": 3,
+      "shootSound": "shootTurboline",
+      "bullet": {
+                        "type": "LaserBoltBulletType",
+			"speed": 20,
+			"lifetime": 50,
+			"damage": 2000,
+			"width": 1,
+			"height": 35,
+			"hitSize": 8,
+			"keepVelocity": false,
+                        "frontColor": "#FEFE22",
+                        "backColor": "#FFFF99",
+			"shootEffect": "shootBig2",
+			"status": "overdrive",
+			"hitEffect": "none",
+			"despawnEffect": "none"
+		}
+      "shots": 10,
+      "spacing": 0
+    }
+  ],
+         "research": "exoconstructor"
+}

@@ -1,0 +1,17 @@
+{
+	"type": "ItemBridge",
+	"name": "Object Teleporter",
+	"description": "High distance autonomous solid objects teleporter.",
+    "health": 4000,
+	"hasItems": true,
+	"ItemCapacity": 25,
+	"range": 70,
+	"update": true,
+	"solid": true,
+	"requirements": [
+		{"item": "creoseum-kernel", "amount": 1}
+	],
+	"category": "distribution",
+	"speed": 1.25,
+	"research": "phase-conveyor"
+}

@@ -1,0 +1,10 @@
+{
+	"name": "Creofluid",
+	"description": "Liquid made of creoseum particles and distilled water. Dangerously low temperature. But extra high boost capacity.",
+	"lightColor": "FEFE22",
+	"temperature": 0.00001,
+    "viscosity": 0.01,
+    "color": "FFD100",
+    "heatCapacity": 15,
+    "effect": "overdrive"
+}

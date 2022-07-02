@@ -1,0 +1,61 @@
+{
+    type: ItemTurret
+    name: "Mortar"
+    description: "-"
+    health: 2500
+    size: 4
+    recoilAmount: 5
+    reloadTime: 120
+    range: 500
+    ammoUseEffect: casing3
+    shootSound: explosionbig
+    targetAir: false
+    inaccuracy: 1
+    shots: 1
+    rotateSpeed: 0.3
+    ammoTypes: {
+        titanit: {
+            speed: 5.0
+            lifetime: 100
+            damage: 660
+            type: ArtilleryBulletType
+            reloadMultiplier: 1.0
+            width: 10
+            height: 10
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            
+            ammoMultiplier: 1
+            backColor: 2A5C60
+            frontColor: 276468
+            splashDamageRadius: 50
+            splashDamage: 600
+        }
+        thorium: {
+	        speed: 5.0
+			lifetime: 100
+			damage: 220
+			type: ArtilleryBulletType
+			reloadMultiplier: 1.0
+			width: 10
+			height: 10
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			ammoMultiplier: 1
+			frontColor: "C73BA0"
+			backColor: "8F2271"
+			splashDamageRadius: 50
+			splashDamage: 800
+		}
+    }
+    coolantMultiplier: 0.7
+    requirements: [
+       bronze/70
+       titanit/190
+       thorium/120
+	   plastanium/150
+       silicon/90
+    ]
+    category: turret
+    research: sniper
+}

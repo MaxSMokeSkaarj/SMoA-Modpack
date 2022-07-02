@@ -1,0 +1,71 @@
+{
+"type": "UnitFactory",
+"description": "can create different unit types",
+"localizedName": "Multi factory",
+"size": 3,
+"consumes": {
+"power": 5
+},
+"plans": [
+{
+    "unit": "decade",
+    	"requirements": [
+		{"item": "silicon", "amount": 20},
+		{"item": "titanium", "amount": 20},
+		{"item": "thorium", "amount": 25}
+       ],
+    "time": 460
+  },
+  {
+    "unit": "meteor",
+    	"requirements": [
+		{"item": "silicon", "amount": 20},
+		{"item": "titanium", "amount": 50}
+       ],
+    "time": 300
+  },
+  {
+    "unit": "a-orion",
+    	"requirements": [
+		{"item": "silicon", "amount": 20},
+		{"item": "titanium", "amount": 50},
+		{"item": "graphite", "amount": 10}
+       ],
+    "time": 400
+  },
+ {
+    "unit": "sol",
+    	"requirements": [
+		{"item": "silicon", "amount": 20},
+		{"item": "osmium", "amount": 50},
+		{"item": "lead", "amount": 10}
+       ],
+    "time": 580
+  },
+ {
+    "unit": "1-arco",
+    	"requirements": [
+		{"item": "silicon", "amount": 20},
+		{"item": "metaglass", "amount": 50},
+		{"item": "lead", "amount": 10}
+       ],
+    "time": 540
+  },
+  {
+    "unit": "a-theory",
+    	"requirements": [
+		{"item": "lead", "amount": 30},
+		{"item": "silicon", "amount": 25}
+    ],
+    "time": 480
+  }
+],
+    "requirements": [
+	{"item": "silicon", "amount": 580},
+	{"item": "osmium", "amount": 380},
+	{"item": "thorium", "amount": 180},
+	{"item": "titanium", "amount": 160}
+],
+"category": "units",
+"research": "ground-factory"
+}

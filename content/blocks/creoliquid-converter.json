@@ -1,0 +1,32 @@
+{
+	"name": "Creofluid mixer",
+	"type": "GenericCrafter",
+	"description": "Produces extra cold creofluid out of creoseum and water.",
+	"liquidCapacity": 100,
+	"health": 7500,
+	"hasPower": true,
+	"size": 4,
+	"hasLiquids": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 5,
+		"liquid": {
+			"liquid": "water", 
+			"amount": 1,
+			"booster": false
+		},
+		"items": {
+			"items": [
+				{"item": "creoseum-kernel", "amount": 1}
+			]
+		}
+	},
+	"outputLiquid": {"liquid": "creofluid", "amount": 20},
+	"requirements": [
+		{"item": "creoseum-kernel", "amount": 50},
+		{"item": "turboline", "amount": 10}
+	],
+	"category": "crafting",
+	"research": "turboline-converter",
+}

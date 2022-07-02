@@ -1,0 +1,22 @@
+{
+	"name": "Creoseum assembler",
+	"type": "GenericCrafter",
+	"description": "Assembles creoseum at high speed using random quarks. Very high amount of energy is required to support the process.",
+	"hasPower": true,
+	"health": 10000,
+	"size": 2,
+	"hasLiquids": false,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"itemCapacity": 120,
+	"consumes": {
+		"power": 40.0,
+	},
+	"requirements": [
+		{"item": "creoseum-kernel", "amount": 150},
+		{"item": "turboline", "amount": 5}
+	],
+	"category": "crafting",
+	"research": "creoseum-combinator",
+	"outputItem": {"item": "creoseum-kernel", "amount": 5}
+}

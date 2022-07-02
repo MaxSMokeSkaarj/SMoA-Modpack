@@ -1,0 +1,15 @@
+{
+	"name": "Creoseum Wall",
+	"description": "Nearly indestructible wall with pronounced deflection properties.",
+	"type": "Wall",
+	"health": 200000,
+	"hitTime": 10,
+	"maxDamageDeflect": 10000000,
+	"size": 1,
+	"Insulated": true,
+	"requirements": [
+		{"item": "creoseum-kernel", "amount": 10},
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

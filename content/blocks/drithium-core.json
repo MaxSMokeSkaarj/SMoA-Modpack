@@ -1,0 +1,18 @@
+{
+	"type": "SolarGenerator",
+	"name": "Drithium Core",
+	"description": "Ultra effective alien power source. Requires no resources or any service to operate.",
+    "health": 10000,
+	"size": 4,
+	"outputsPower": true,
+	"hasLiquids": false,
+	"powerProduction": 25000,
+	"requirements": [
+		{"item": "creoseum-kernel", "amount": 500},
+		{"item": "drithium", "amount": 10}
+	],
+	"category": "power",
+	"research": "thermal-generator",
+	"idleSound": "fieldloop",
+	"idleSoundVolume": 0.5
+}

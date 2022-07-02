@@ -1,0 +1,12 @@
+{
+	"type": "ArmoredConveyor",
+	"name": "Creoseum conveyor",
+	"health": 4000,
+	"description": "Extra high speed and armored magistral conveyor.",
+	"requirements": [
+		{"item": "creoseum-fragment", "amount": 2}
+	],
+	"category": "distribution",
+	"speed": 1.25,
+	"research": "titanium-conveyor"
+}

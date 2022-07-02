@@ -1,0 +1,27 @@
+{
+	"name": "Drithium Converter",
+	"type": "GenericCrafter",
+	"description": "Special assembler that rarely converts creoseum kernels into small spherical drithium crystalls. Requires super high monstrous of energy and resources to operate.",
+	"hasPower": true,
+	"health": 9000,
+	"size": 4,
+	"hasLiquids": false,
+	"craftTime": 1500,
+	"itemCapacity": 900,
+	"consumes": {
+		"power": 50,
+		"items": {
+			"items": [
+				{"item": "creoseum-kernel", "amount": 50},
+				{"item": "turboline", "amount": 50}
+			]
+		},
+	},
+	"requirements": [
+		{"item": "creoseum-kernel", "amount": 50},
+		{"item": "turboline", "amount": 5}
+	],
+	"category": "crafting",
+	"research": "turboline-converter",
+	"outputItem": {"item": "drithium", "amount": 1}
+}

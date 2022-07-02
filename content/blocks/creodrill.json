@@ -1,0 +1,26 @@
+{
+	"name": "Pulse Drill",
+	"description": "A high power drill. Requires a lot of time to increase in pace.",
+	"type": "Drill",
+	"health": 10000,
+	"warmupspeed": 0.001,
+	"size": 3,
+	"drawRim": true,
+	"tier": 15,
+	"drillTime": 5.0,
+	"liquidBoostIntensity": 5,
+	"consumes": {
+		"power": 4.0,
+		"liquid": {
+			"liquid": "creofluid", 
+			"amount": 0.05,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "creoseum-kernel", "amount": 20 }
+	],
+	"category": "production",
+	"research": "mechanical-drill"
+}

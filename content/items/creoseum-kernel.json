@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "Creoseum",
+	"description": "Alien ultramaterial, light and durable",
+	"cost": 5,
+	"hardness": 1000,
+	"color": "FFD100",
+	"Radioactivity": 0
+}

@@ -1,0 +1,54 @@
+{
+	name: Sniper
+	description: -
+	type: ItemTurret
+	size: 3
+	health: 450
+	recoilAmount: 1
+	reloadTime: 35
+	range: 500
+	ammoUseEffect: casing1
+	shootSound: shotgun
+	inaccuracy: 0.0
+	shots: 1
+	rotateSpeed: 0.7
+	ammoTypes: {
+		bronze: {
+			speed: 50.0
+			lifetime: 10
+			damage: 95
+			reloadMultiplier: 0.5
+			width: 3
+			height: 9
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			
+			ammoMultiplier: 1
+			backColor: AF8A69
+			frontColor: ffdab9
+		}
+		titanit: {
+			speed: 50.0
+			lifetime: 10
+			damage: 150
+			reloadMultiplier: 0.5
+			width: 3
+			height: 9
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			
+			ammoMultiplier: 1
+			backColor: 2A5C60
+			frontColor: 276468
+		}
+	}
+	coolantMultiplier: 0.7
+	requirements: [
+		bronze/70
+		titanit/90
+		lead/35
+		plastanium/40
+	]
+	category: turret
+	research: large-bronze-turret
+}

@@ -1,0 +1,73 @@
+{
+	name: "Dragon"
+	description: "-"
+	type: ItemTurret
+	range: 400
+	recoilAmount: 5
+	reloadTime: 30
+	ammoUseEffect: casing3
+	shootSound: missile
+	size: 3
+	health: 1500
+	inaccuracy: 0
+	rotateSpeed: 3
+	targetAir: true
+	ammoTypes: {
+		titanit: {
+			speed: 2.0
+			damage: 150
+			lifetime: 200
+			reloadMultiplier: 0.9
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			width: 3
+			height: 5
+			backColor: 2A5C60
+			frontColor: 276468
+			type: missileBulletType
+			ammoMultiplier: 2
+			splashDamageRadius: 15
+			splashDamage: 600
+		}
+		plastanium: {
+			speed: 4.0
+			damage: 150
+			lifetime: 100
+			reloadMultiplier: 1.5
+			width: 7
+			height: 9
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			
+			ammoMultiplier: 1
+			backColor: 00FF55
+			frontColor: 00FF55
+			type: missileBulletType
+		}
+		surge-alloy: {
+			speed: 4.0
+			lifetime: 100
+			damage: 300
+			reloadMultiplier: 1.0
+			width: 7
+			height: 9
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			
+			ammoMultiplier: 1
+			backColor: FFD800
+			frontColor: FFD800
+			type: missileBulletType
+			status: burning
+		}
+	}
+	coolantMultiplier: 0.7
+	requirements: [
+		titanit/130
+		plastanium/50
+		silicon/65
+		lead/70
+	]
+	category: turret
+	research: fireworks
+}

@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "Turboline",
+	"description": "Round energy producing crystal, which has established itself as a reliable and safe source of energy.",
+	"cost": 10,
+	"hardness": 1000,
+	"color": "FFEA00",
+	"radioactivity": 5
+}

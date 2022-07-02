@@ -1,0 +1,8 @@
+{
+  name: "smoa-n"
+  displayName: "[orange]SMoke [green]of [purple]Anarchy[] [white]New[]"
+  description: "Enjoy which a lot of content"
+  author: "[#FFA500]Max[#00FF00]SM[#FF00FF]oke"
+  version: 2
+  minGameVersion: 105
+}

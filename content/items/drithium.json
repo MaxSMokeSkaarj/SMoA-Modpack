@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "[#fefe22]Drithium",
+	"description": "Super radioactive alien power source. Can provide energy enough for any processes, but very hard to obtain due to it's complex Z-pa structure.",
+	"cost": 10,
+	"hardness": 1000,
+	"color": "FEFE22",
+	"radioactivity": 100
+}

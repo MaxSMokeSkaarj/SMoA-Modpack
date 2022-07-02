@@ -1,0 +1,25 @@
+{
+    name: "Storm"
+    description: "-"
+    health: 400
+    size: 3
+    recoilAmount: 1
+    reloadTime: 0.1
+    range: 200
+    ammoUseEffect: casing1
+    targetGround: false
+    inaccuracy: 1
+    shots: 5
+    rotateSpeed: 1.5
+    xRand: 3
+    spread: 0
+    coolantMultiplier: 0.7
+    requirements: [
+       bronze/80
+       copper/120
+	   lead/50
+       silicon/35
+    ]
+    category: turret
+    research: large-bronze-turret
+}

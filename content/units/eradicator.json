@@ -1,0 +1,46 @@
+{
+  "type": "mech",
+  "name": "Eradicator",
+  "health": 30000,
+  "armor": 50,
+  "commandLimit": 18,
+  "hitSize": 20,
+  "speed": 0.12,
+  "boostMultiplier": 4,
+  "canBoost": true,
+  "buildSpeed": 5,
+  "rotateSpeed": 1.65,
+  "mechSideSway": 0.6,
+  "mineTier": 6,
+  "mineSpeed": 15,
+  "weapons": [
+    {
+      "name": "eradication",
+      "x": -21.5,
+      "y": 1,
+      "shootY": 11,
+      "reload": 15,
+      "recoil": 3,
+      "shootSound": "shootBig",
+      "bullet": {
+			"speed": 7.5,
+			"lifetime": 50,
+			"damage": 150,
+			"width": 13,
+			"height": 25,
+			"hitSize": 8,
+			"keepVelocity": false,
+                        "backColor": "#FFFF88",
+			"shootEffect": "shootBig2",
+			"status": "overdrive",
+			"hitEffect": "none",
+			"despawnEffect": "none"
+		}
+      "shots": 4,
+      "inaccuracy": 2,
+      "shotDelay": 3,
+      "spacing": 0
+    }
+  ],
+         "research": "eradfac"
+}

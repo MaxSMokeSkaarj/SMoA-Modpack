@@ -1,0 +1,20 @@
+{
+	"type": "ArmoredConduit",
+	"name": "Creoseum Conduit",
+	"description": "High-speed and durable creoseum conduit. Transports higher amount of liquid.",
+    "health": 4000,
+	"hasLiquids": true,
+	"liquidCapacity": 22,
+	"outputsLiquid": true,
+	"update": true,
+	"rotate": true,
+	"solid": false,
+	"group": "liquids",
+	"floating": true,
+	"requirements": [
+		{"item": "creoseum-fragment", "amount": 1}
+	],
+	"category": "liquid",
+	"speed": 1.25,
+	"research": "pulse-conduit"
+}

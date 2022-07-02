@@ -1,0 +1,51 @@
+{
+    type: ItemTurret
+    name: "Bronze turret"
+    description: "-"
+    health: 800
+    size: 2
+    recoilAmount: 1
+    reloadTime: 4
+    range: 100
+    ammoUseEffect: casing1
+    inaccuracy: 10
+    rotateSpeed: 10.0
+    ammoTypes: {
+        bronze: {
+            speed: 1.0
+            damage: 15
+            lifetime: 100
+            reloadMultiplier: 1.0
+            width: 7
+            height: 9
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 2
+            backColor: AF8A69
+            frontColor: ffdab9
+        }
+        copper: {
+            speed: 2.0
+            damage: 10
+            lifetime: 50
+            reloadMultiplier: 1.5
+            width: 5
+            height: 9
+           shootEffect: shootSmall
+     smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 2
+            backColor: FFBE00
+            frontColor: FFBE00
+        }
+    }
+    coolantMultiplier: 0.7
+    requirements: [
+       bronze/25
+       copper/30
+	   lead/25
+    ]
+    category: turret
+    research: stream
+}

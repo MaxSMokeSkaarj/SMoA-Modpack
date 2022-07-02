@@ -1,0 +1,26 @@
+{
+  "name": "Eradicator Factory",
+  "type": "UnitFactory",
+  "size": 3,
+  "consumes": {
+    "power": 2
+  },
+  "plans": [
+    {
+      "unit": "eradicator",
+      "requirements": [
+        "silicon/10",
+        "thorium/5"
+      ],
+      "time": 260
+    }
+  ],
+  "requirements": [
+    "copper/50",
+    "lead/140",
+    "silicon/70",
+    "plastanium/60"
+  ],
+  "category": "units",
+  "research": "ground-factory"
+}

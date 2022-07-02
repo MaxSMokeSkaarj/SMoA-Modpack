@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "Creoseum Fragment",
+	"description": "More common form of creoseum for cheaper buildings",
+	"cost": 5,
+	"hardness": 1000,
+	"color": "FFB100",
+	"Radioactivity": 0
+}

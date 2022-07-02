@@ -1,0 +1,34 @@
+{
+	"name": "Creoseum Combinator",
+	"type": "GenericCrafter",
+	"description": "Constructs creoseum from the most suitable components. Requires extra high amount of energy to operate.",
+	"hasPower": true,
+	"health": 1000,
+	"size": 2,
+	"hasLiquids": false,
+	"craftTime": 200,
+	"updateEffect": "smeltsmoke",
+	"itemCapacity": 120,
+	"consumes": {
+		"power": 15,
+		"items": {
+			"items": [
+				{"item": "graphite", "amount": 9},
+				{"item": "surge-alloy", "amount": 9},
+				{"item": "thorium", "amount": 9}
+			]
+		},
+	},
+	"requirements": [
+		{"item": "copper", "amount": 100},
+		{"item": "plastanium", "amount": 100},
+		{"item": "surge-alloy", "amount": 200},
+		{"item": "titanium", "amount": 200},
+		{"item": "thorium", "amount": 900},
+		{"item": "silicon", "amount": 200},
+		{"item": "graphite", "amount": 100}
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"outputItem": {"item": "creoseum-kernel", "amount": 3}
+}

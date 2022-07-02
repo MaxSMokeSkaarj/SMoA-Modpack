@@ -1,0 +1,38 @@
+{
+	"type": "itemTurret",
+	"name": "AG-1",
+	"description": "Spreads creoseum fragments at high speeds.",
+	"targetAir": true,
+	"health": 10000,
+	"powerUse": 150.0,
+	"targetGround": true,
+	"inaccuracy": 4,
+	"size": 2,
+	"reload": 5,
+	"shootCone": 40,
+	"shootSound":"shootBig",
+	"rotateSpeed": 25,
+	"shots": 2,
+	"range": 150,
+	"burstSpacing": 1,
+	"ammoTypes": {
+		"creoseum-fragment": {
+			"speed": 15.0,
+			"damage": 25,
+			"knockback": 5.0,
+			"backColor": "FEFE22",
+			"frontColor":"FDFD8F",
+			"width": 1,
+			"height": 15,
+			"shootEffect": "hitLancer",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1
+			}
+	},
+	"requirements": [
+		{ "item": "creoseum-kernel", "amount": 5 },
+		{ "item": "turboline", "amount": 1 }
+	],
+	"category": "turret",
+	"research": "spectre"
+}

@@ -1,0 +1,53 @@
+{
+ size: 2
+ range: 70
+ health: 800
+ recoilAmount: 0
+ reloadTime: 40
+ inaccuracy: 360
+ ammoUseEffect: none
+ targetAir: false
+ shots: 100
+ rotateSpeed: 0
+ shootCone: 360
+ ammoTypes: {
+  bronze: {
+   speed: 1.5
+   lifetime: 46
+   damage: 30
+   reloadMultiplier: 1.0
+   width: 3
+   height: 5
+   shootEffect: none
+   smokeEffect: none
+            
+   ammoMultiplier: 1
+   backColor: AF8A69
+   frontColor: ffdab9
+        }
+  lead: {
+   speed: 1.5
+   lifetime: 46
+   damage: 15
+   reloadMultiplier: 1.0
+   shootEffect: none
+   smokeEffect: none
+   width: 3
+   height: 5
+   
+   ammoMultiplier: 1
+   backColor: 6998D8
+   frontColor: 6998D8
+  }
+ }
+ requirements: [
+  bronze/90
+  copper/85
+  silicon/35
+ ]
+ coolantMultiplier: 0.7
+ category: turret
+ research: bronze-turret
+}
+ 
+ 

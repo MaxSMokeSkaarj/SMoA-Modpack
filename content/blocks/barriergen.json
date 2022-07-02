@@ -1,0 +1,32 @@
+{
+  "name": "Barrier Generator",
+  "description": "Super strong energy barrier generator that requires a lot of energy to work.",
+  "type": "ForceProjector",
+  "consumes": {
+		"power": 200.0,
+        "items": {
+    "items": [
+        {"item": "turboline", "amount": 1},
+    ],
+    "booster": true,
+    "optional": true
+  }
+  },
+  "category": "effect",
+	"research": "force-projector",
+  "radius": 150,
+  "phaseUseTime": 100000,
+  "breakage": 55000,
+  "size": 3,
+  "speedBoost": 10,
+  "cooldownNormal": 2.0
+  "cooldownLiquid": 1.0
+  "speedBoostPhase": 5,
+  "useTime": 60,
+  "phaseRadiusBoost": 60,
+  "basePowerDraw": 0.5
+  "requirements": [
+		{ "item": "creoseum-kernel", "amount": 10 },
+		{ "item": "turboline", "amount": 1 }
+	]
+}

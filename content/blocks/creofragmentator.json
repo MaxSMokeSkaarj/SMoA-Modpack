@@ -1,0 +1,26 @@
+{
+	"name": "Creoseum fragmentator",
+	"type": "GenericCrafter",
+	"description": "Fragmentates creoseum into it's cheaper form for mass buildings usage.",
+	"hasPower": true,
+	"health": 6000,
+	"size": 2,
+	"hasLiquids": false,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"itemCapacity": 15,
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+				{"item": "creoseum-kernel", "amount": 1}
+			]
+		},
+	},
+	"requirements": [
+		{"item": "creoseum-kernel", "amount": 50}
+	],
+	"category": "crafting",
+	"research": "creoseum-assembler",
+	"outputItem": {"item": "creoseum-fragment", "amount": 10}
+}

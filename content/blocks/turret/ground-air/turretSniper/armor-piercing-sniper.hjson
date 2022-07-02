@@ -1,0 +1,68 @@
+{
+	name: "Armor-piercing sniper"
+	description: "-"
+	type: ItemTurret
+	size: 3
+	health: 1600
+	recoilAmount: 1
+	reloadTime: 120
+	range: 500
+	ammoUseEffect: casing3
+	shootSound: shotgun
+	inaccuracy: 0.0
+	shots: 1
+	rotateSpeed: 0.3
+	ammoTypes: {
+		titanit: {
+			speed: 100.0
+			lifetime: 5
+			damage: 660
+			reloadMultiplier: 0.5
+			width: 3
+			height: 9
+			shootEffect: shootBig
+				smokeEffect: shootBigSmoke
+			
+			ammoMultiplier: 1
+			backColor: 2A5C60
+			frontColor: 276468
+			status: {
+				name: "Armor penetration"
+				damageMultiplier: 1.0
+				healthMultiplier: 0.001
+ 				speedMultiplier: 1.0
+			}
+			statusDuration: 999999.0
+		}
+		plastanium: {
+			speed: 100.0
+			lifetime: 5
+			damage: 650
+			reloadMultiplier: 1.0
+			width: 3
+			height: 9
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			
+			ammoMultiplier: 1
+			backColor: 00FF65
+			frontColor: 00FF65
+			status: {
+ 				name: "Armor penetration2"
+ 				damageMultiplier: 1.0
+ 				healthMultiplier: 0.001
+				speedMultiplier: 1.0
+			}
+			statusDuration: 999999.0
+		}
+	}
+	coolantMultiplier: 0.7
+	requirements: [
+		bronze/70
+		titanit/130
+		lead/35
+		plastanium/70
+	]
+	category: turret
+	research: sniper
+}

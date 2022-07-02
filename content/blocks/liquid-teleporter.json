@@ -1,0 +1,17 @@
+{
+	"type": "LiquidBridge",
+	"name": "Fluid Teleporter",
+	"description": "High distance autonomous liquid teleporter.",
+    "health": 4000,
+	"hasLiquids": true,
+	"range": 70,
+	"update": true,
+	"solid": true, 
+	"group": "liquids",
+	"requirements": [
+		{"item": "creoseum-kernel", "amount": 1}
+	],
+	"category": "liquid",
+	"speed": 1.25,
+	"research": "phase-conduit"
+}

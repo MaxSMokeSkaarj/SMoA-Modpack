@@ -1,0 +1,15 @@
+{
+	"name": "Large Creoseum Wall",
+	"description": "Large version of regular creoseum walls.",
+	"type": "Wall",
+	"health": 1000000,
+	"hitTime": 10,
+	"maxDamageDeflect": 10000000,
+	"size": 2,
+	"Insulated": true,
+	"requirements": [
+		{"item": "creoseum-kernel", "amount": 25},
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

@@ -1,0 +1,32 @@
+{
+	"type": "Reconstructor",
+	"localizedName": "Helixian Reconstructor",
+	"size": 3,
+	"constructTime": 600,
+	"consumes": {
+		"power": 8,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 80},
+				{"item": "graphite", "amount": 120},
+				{"item": "osmium", "amount": 80}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "osmium", "amount": 250},
+		{"item": "silicon", "amount": 240},
+		{"item": "graphite", "amount": 180},
+		{"item": "lead", "amount": 160}
+	],
+	"upgrades": [
+        ["decade", "century"],
+        ["meteor", "asteroid"],
+		["a-orion", "b-galileo"],
+		["sol", "corona"],
+		["1-arco", "2-falx"],
+		["a-theory", "b-hypothesis"]
+	],
+	"category": "units",
+	"research": "additive-reconstructor"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Exoconstructor",
+  "type": "UnitFactory",
+  "size": 5,
+  "consumes": {
+    "power": 2
+  },
+  "plans": [
+    {
+      "unit": "glider",
+      "requirements": [
+        "creoseum-kernel/250",
+        "turboline/15"
+      ],
+      "time": 260
+    }
+  ],
+  "requirements": [
+    "creoseum-kernel/50",
+    "turboline/25"
+  ],
+  "category": "units",
+  "research": "ground-factory"
+}
