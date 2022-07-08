@@ -1,0 +1,29 @@
+type: ImpactReactor
+localizedName: Fusion Reactor
+description: A deuterium reactor. Pulls hydrogen from water and fuses it to generate a large amount of power.
+liquidCapacity: 980
+size: 5
+hasLiquids: true
+powerProduction: 650
+plasma1: 94efff
+plasma2: 45e3ff
+consumes: {
+  power: 44.8
+  liquid: {
+    liquid: water
+    amount: 14.4
+  }
+}
+requirements: [
+  surge-alloy/750
+  draconium/100
+  silicon/1000
+  lead/1250
+  titanium/700
+  plastanium/450
+  bluewolframite/550
+]
+category: power
+ambientSound: pulse
+ambientSoundVolume: 0.2
+research: impact-reactor

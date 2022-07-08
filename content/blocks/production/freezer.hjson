@@ -1,0 +1,13 @@
+craftTime: 80
+craftEffect: smeltsmoke
+hasPower: true
+hasItems: true
+hasLiquids: true
+category: crafting
+requirements: [
+lead/45
+silicon/30
+graphite/35
+]
+size: 2
+research: cryofluid-mixer

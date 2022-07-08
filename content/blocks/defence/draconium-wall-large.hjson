@@ -1,0 +1,15 @@
+localizedName: Large Draconium Wall
+description: "Insulates against lightning and lasers. Deflects bullets with a phase coating.\nSpans multiple tiles."
+type: Wall
+health: 8400
+size: 2
+insulated: true
+absorbLasers: true
+chanceDeflect: 870
+schematicPriority: 10
+requirements: [
+  draconium/36
+  phase-fabric/12
+]
+category: defense
+research: draconium-wall

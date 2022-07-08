@@ -1,0 +1,300 @@
+type: LaserTurret
+name: Rainstorm
+description: Charges and fires a persistent multicoloured beam at hostile targets.
+details: Does not work properly with bloom enabled.
+size: 10
+health: 228000
+range: 877
+reloadTime: 45
+shootCone: 25
+shootSound: laserbig
+loopSound: beam
+rotateSpeed: 1.5
+powerUse: 4500
+shootDuration: 300
+chargeTime: 120
+heatColor: ffffff
+chargeBeginEffect: {
+  type: MultiEffect
+  layer: 71
+  lifetime: 120
+  effects: [
+    {
+      type: ParticleEffect
+      lifetime: 120
+      length: -60
+      baseLength: 60
+      particles: 50
+      sizeFrom: 0
+      sizeTo: 3
+      colorFrom: e65555
+    }
+    {
+      type: ParticleEffect
+      lifetime: 120
+      length: -50
+      baseLength: 50
+      particles: 50
+      sizeFrom: 0
+      sizeTo: 3
+      colorFrom: ff9c59
+    }
+    {
+      type: ParticleEffect
+      lifetime: 120
+      length: -40
+      baseLength: 40
+      particles: 50
+      sizeFrom: 0
+      sizeTo: 3
+      colorFrom: f2e879
+    }
+    {
+      type: ParticleEffect
+      lifetime: 120
+      length: -30
+      baseLength: 30
+      particles: 50
+      sizeFrom: 0
+      sizeTo: 3
+      colorFrom: 84f591
+    }
+    {
+      type: ParticleEffect
+      lifetime: 120
+      length: -20
+      baseLength: 20
+      particles: 50
+      sizeFrom: 0
+      sizeTo: 3
+      colorFrom: 8ca4f5
+    }
+    {
+      type: ParticleEffect
+      lifetime: 120
+      length: -10
+      baseLength: 10
+      particles: 50
+      sizeFrom: 0
+      sizeTo: 3
+      colorFrom: a488eb
+    }
+    {
+      type: WaveEffect
+      lifetime: 120
+      sizeFrom: 60
+      sizeTo: 0
+      strokeFrom: 4
+      strokeTo: 0
+      colorFrom: e6555525
+    }
+    {
+      type: WaveEffect
+      lifetime: 120
+      sizeFrom: 58
+      sizeTo: 0
+      strokeFrom: 4
+      strokeTo: 0
+      colorFrom: ff9c5925
+    }
+    {
+      type: WaveEffect
+      lifetime: 120
+      sizeFrom: 56
+      sizeTo: 0
+      strokeFrom: 4
+      strokeTo: 0
+      colorFrom: f2e87925
+    }
+    {
+      type: WaveEffect
+      lifetime: 120
+      sizeFrom: 54
+      sizeTo: 0
+      strokeFrom: 4
+      strokeTo: 0
+      colorFrom: 84f59125
+    }
+    {
+      type: WaveEffect
+      lifetime: 120
+      sizeFrom: 52
+      sizeTo: 0
+      strokeFrom: 4
+      strokeTo: 0
+      colorFrom: 8ca4f525
+    }
+    {
+      type: WaveEffect
+      lifetime: 120
+      sizeFrom: 50
+      sizeTo: 0
+      strokeFrom: 4
+      strokeTo: 0
+      colorFrom: a488eb25
+    }
+    {
+      type: ParticleEffect
+      particles: 1
+      length: 0
+      lifetime: 120
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e6555515
+    }
+    {
+      type: ParticleEffect
+      particles: 1
+      length: 0
+      lifetime: 120
+      sizeFrom: 0
+      sizeTo: 7
+      colorFrom: ff9c5935
+    }
+    {
+      type: ParticleEffect
+      particles: 1
+      length: 0
+      lifetime: 120
+      sizeFrom: 0
+      sizeTo: 6
+      colorFrom: f2e87955
+    }
+    {
+      type: ParticleEffect
+      particles: 1
+      length: 0
+      lifetime: 120
+      sizeFrom: 0
+      sizeTo: 5
+      colorFrom: 84f59175
+    }
+    {
+      type: ParticleEffect
+      particles: 1
+      length: 0
+      lifetime: 120
+      sizeFrom: 0
+      sizeTo: 4
+      colorFrom: 8ca4f595
+    }
+    {
+      type: ParticleEffect
+      particles: 1
+      length: 0
+      lifetime: 120
+      sizeFrom: 0
+      sizeTo: 3
+      colorFrom: a488eb
+    }
+  ]
+}
+chargeEffect: none
+shootType: {
+  type: ContinuousLaserBulletType
+  damage: 11000
+  length: 877
+  width: 32
+  drawSize: 877
+  colors: [e6555525, ff9c5935, f2e87945, 84f59155, 8ca4f565, a488eb75]
+  strokes: [1.5, 1.25, 1, 0.75, 0.5, 0.25]
+  hitEffect: {
+    type: MultiEffect
+    effects: [
+      {
+        type: ParticleEffect
+        particles: 1
+        line: true
+        length: 30
+        lifetime: 15
+        strokeFrom: 2
+        strokeTo: 1
+        lenFrom: 10
+        lenTo: 0
+        colorFrom: e65555
+        colorTo: e6555550
+      }
+      {
+        type: ParticleEffect
+        particles: 1
+        line: true
+        length: 30
+        lifetime: 15
+        strokeFrom: 2
+        strokeTo: 1
+        lenFrom: 10
+        lenTo: 0
+        colorFrom: ff9c59
+        colorTo: ff9c5950
+      }
+      {
+        type: ParticleEffect
+        particles: 1
+        line: true
+        length: 30
+        lifetime: 15
+        strokeFrom: 2
+        strokeTo: 1
+        lenFrom: 10
+        lenTo: 0
+        colorFrom: f2e879
+        colorTo: f2e87950
+      }
+      {
+        type: ParticleEffect
+        particles: 1
+        line: true
+        length: 30
+        lifetime: 15
+        strokeFrom: 2
+        strokeTo: 1
+        lenFrom: 10
+        lenTo: 0
+        colorFrom: 84f591
+        colorTo: 84f59150
+      }
+      {
+        type: ParticleEffect
+        particles: 1
+        line: true
+        length: 30
+        lifetime: 15
+        strokeFrom: 2
+        strokeTo: 1
+        lenFrom: 10
+        lenTo: 0
+        colorFrom: 8ca4f5
+        colorTo: 8ca4f550
+      }
+      {
+        type: ParticleEffect
+        particles: 1
+        line: true
+        length: 30
+        lifetime: 15
+        strokeFrom: 2
+        strokeTo: 1
+        lenFrom: 10
+        lenTo: 0
+        colorFrom: a488eb
+        colorTo: a488eb50
+      }
+    ]
+  }
+}
+coolantMultiplier: 6.5
+liquidCapacity: 3500
+requirements: [
+  copper/55000
+  lead/65000
+  graphite/35000
+  silicon/40000
+  titanium/30000
+  thorium/25000
+  surge-alloy/10000
+  phase-fabric/12000
+  amethyst-gem/9500
+  bluewolframite/8500
+  shadow/2500
+]
+category: turret

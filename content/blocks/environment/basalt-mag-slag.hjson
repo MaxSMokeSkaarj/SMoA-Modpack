@@ -1,0 +1,30 @@
+type: ShallowLiquid
+name: Basalt Magnetic Slag
+variants: 3
+liquidDrop: mag-slag
+liquidMultiplier: 0.1
+status: {
+  name: vapourizing
+  localizedName: Vapourizing
+  damage: 150
+  speedMultiplier: 0.85
+  effectChance: 0.075
+  effect: {
+    type: ParticleEffect
+    particles: 2
+    lifetime: 15
+    length: 4
+    sizeFrom: 2
+    sizeTo: 0
+    colorTo: ffb14a
+  }
+}
+statusDuration: 120
+cacheLayer: slag
+emitLight: true
+lightRadius: 25
+lightColor: e8682720
+attributes: {
+  heat: 1.5
+  water: -1.0
+}

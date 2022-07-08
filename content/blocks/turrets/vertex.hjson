@@ -1,0 +1,36 @@
+type: PowerTurret
+localizedName: Vertex
+description: Slashes enemies with three sharp blades. Inflicts a strong debuff.
+size: 8
+health: 356000
+range: 80
+recoilAmount: -50
+restitution: 0.2
+powerUse: 9.2
+reloadTime: 15
+shootType: {
+  type: ShrapnelBulletType
+  damage: 564000
+  length: 50
+  width: 0.01
+  serrations: 0
+  toColor: ffffff
+  status: {
+    name: bleeding
+    localizedName: Bleeding
+    damage: 10
+    effect: {
+      type: ParticleEffect
+      particles: 1
+      length: 0
+      lifetime: 30
+      sizeFrom: 5
+      sizeTo: 0
+      colorFrom: e65555
+      colorTo: e6555500
+    }
+  }
+}
+research: meltdown
+category: turret
+buildVisibility: sandboxOnly

@@ -1,0 +1,14 @@
+type: Conduit
+localizedName: Bluewolframite Conduit
+description: Rapidly pumps liquids with powerful electromagnetic pumps. Able to store a considerable amount of liquid.
+leaks: true
+health: 540
+requirements: [
+  bluewolframite/3
+  surge-alloy/1
+  metaglass/3
+]
+liquidCapacity: 65
+liquidPressure: 1.5
+category: liquid
+research: plated-conduit

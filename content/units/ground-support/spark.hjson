@@ -1,0 +1,60 @@
+type: mech
+localizedName: Spark
+description: A small unit meant to only heal buildings and units.
+speed: 0.88
+drag: 0.4
+hitSize: 18
+rotateSpeed: 8.4
+health: 5500
+armor: 14
+mechFrontSway: 0.5
+lightColor: 84f591
+weapons: [
+  {
+    name: spark-weapon
+    top: false
+    recoil: 2
+    inaccuracy: 10
+    shots: 10
+    x: 10
+    y: 0
+    shootY: 8
+    shootSound: flame
+    ejectEffect: none
+    reload: 15
+    bullet: {
+      damage: 0
+      speed: 4
+      lifetime: 15
+      width: 0.01
+      height: 0.01
+      collidesTeam: true
+      healPercent: 2
+      lightColor: 84f591
+      hitEffect: hitLaser
+      despawnEffect: none
+      smokeEffect: {
+        type: ParticleEffect
+        particles: 25
+        sizeFrom: 3
+        sizeTo: 0
+        length: 100
+        lifetime: 25
+        colorFrom: 98ffa9
+        colorTo: 454545
+        cone: 10
+      }
+      pierce: true
+      pierceBuilding: true
+    }
+  }
+]
+abilities: [
+  {
+    type: RepairFieldAbility
+    amount: 150
+    reload: 90
+    range: 45
+  }
+]
+research: constructor

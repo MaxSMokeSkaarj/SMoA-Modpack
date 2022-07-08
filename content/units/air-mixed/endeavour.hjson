@@ -1,0 +1,287 @@
+type: flying
+localizedName: Endeavour
+description: A multipurpose unit that can heal buildings and destroy hostiles with a laser cannon.
+controller: BuilderAI
+flying: true
+health: 54300
+armor: 40
+hitSize: 60
+speed: 1.5
+accel: 0.2
+drag: 0.05
+rotateSpeed: 1.75
+buildSpeed: 4.5
+mineTier: 6
+mineSpeed: 8.5
+canHeal: true
+lowAltitude: true
+engineOffset: 32
+engineSize: 8.5
+lightRadius: 80
+lightColor: 6f7fe8
+weapons: [
+  {
+    name: endeavour-laser
+    x: 0
+    y: 20
+    mirror: false
+    reload: 180
+    shootCone: 5
+    firstShotDelay: 45
+    shootStatus: unmoving
+    shootStatusDuration: 60
+    shootSound: laserblast
+    chargeSound: lasercharge2
+    shake: 10
+    bullet: {
+      type: LaserBulletType
+      damage: 1200
+      length: 500
+      width: 55
+      lifetime: 60
+      colors: [6f7fe840, 6f7fe8, ffffff]
+      lightColor: 6f7fe8
+      shootEffect: {
+        type: MultiEffect
+          effects: [
+          {
+            type: ParticleEffect
+            length: -25
+            baseLength: 25
+            particles: 25
+            sizeFrom: 0
+            sizeTo: 6
+            lifetime: 45
+            colorFrom: 6f7fe8
+            colorTo: ffffff
+          }
+          {
+            type: WaveEffect
+            sizeFrom: 25
+            sizeTo: 0
+            lifetime: 45
+            strokeFrom: 0
+            strokeTo: 4
+            colorFrom: 6f7fe8
+            colorTo: fffffff
+          }
+          {
+            type: ParticleEffect
+            length: 0
+            lifetime: 45
+            sizeFrom: 0
+            sizeTo: 7.5
+            particles: 1
+            colorFrom: 6f7fe8
+            colorTo: ffffff
+          }
+        ]
+      }
+    }
+  }
+  {
+    name: reckless-weapon
+    x: 20
+    y: 24
+    rotate: true
+    reload: 35
+    recoil: 2
+    shootCone: 10
+    shootSound: lasershoot
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 340
+      speed: 6
+      lifetime: 45
+      collidesTeam: true
+      healPercent: 8
+      frontColor: 6f7fe8
+      backColor: 5757c2
+      lightColor: 6f7fe8
+      smokeEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 6f7fe8
+        colorTo: 6f7fe8
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+      hitEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 6f7fe8
+        colorTo: 6f7fe8
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+      despawnEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 6f7fe8
+        colorTo: 6f7fe8
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    }
+  }
+  {
+    name: reckless-weapon
+    x: 12
+    y: 8
+    rotate: true
+    reload: 15
+    recoil: 2
+    shootCone: 10
+    shootSound: lasershoot
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 340
+      speed: 6
+      lifetime: 45
+      collidesTeam: true
+      healPercent: 8
+      frontColor: 6f7fe8
+      backColor: 5757c2
+      lightColor: 6f7fe8
+      smokeEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 6f7fe8
+        colorTo: 6f7fe8
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+      hitEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 6f7fe8
+        colorTo: 6f7fe8
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+      despawnEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 6f7fe8
+        colorTo: 6f7fe8
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    }
+  }
+    {
+    name: reckless-weapon
+    x: 12
+    y: -8
+    rotate: true
+    reload: 15
+    recoil: 2
+    shootCone: 10
+    shootSound: lasershoot
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 340
+      speed: 6
+      lifetime: 45
+      collidesTeam: true
+      healPercent: 8
+      frontColor: 6f7fe8
+      backColor: 5757c2
+      lightColor: 6f7fe8
+      smokeEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 6f7fe8
+        colorTo: 6f7fe8
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+      hitEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 6f7fe8
+        colorTo: 6f7fe8
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+      despawnEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 6f7fe8
+        colorTo: 6f7fe8
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    }
+  }
+  {
+    name: reckless-weapon
+    x: 20
+    y: -24
+    rotate: true
+    reload: 35
+    recoil: 2
+    shootCone: 10
+    shootSound: lasershoot
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 340
+      speed: 6
+      lifetime: 45
+      collidesTeam: true
+      healPercent: 8
+      frontColor: 6f7fe8
+      backColor: 5757c2
+      lightColor: 6f7fe8
+      smokeEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 6f7fe8
+        colorTo: 6f7fe8
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+      hitEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 6f7fe8
+        colorTo: 6f7fe8
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+      despawnEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 6f7fe8
+        colorTo: 6f7fe8
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    }
+  }
+]
+research: reckless

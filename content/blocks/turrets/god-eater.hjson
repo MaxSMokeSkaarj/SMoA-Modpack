@@ -1,0 +1,90 @@
+type: PowerTurret
+requirements: [
+silicon/1600
+titanium/1450
+thorium/1200
+plastanium/950
+creostone/600
+surge-alloy/450
+phase-fabric/300
+]
+range: 550
+chargeTime: 140
+chargeMaxDelay: 130
+chargeEffects: 10
+recoilAmount: 10
+reloadTime: 600
+cooldown: 600
+powerUse: 21
+shootShake: 14
+liquidCapacity: 40
+rotateSpeed: 1.5
+shootEffect: greenLaserCharge
+smokeEffect: none
+chargeEffect: greenLaserCharge
+chargeBeginEffect: greenLaserCharge
+shootSound: laserblast
+chargeSound: lasercharge
+heatColor: ff0000
+size: 8
+health: 17000
+targetGround: true
+targetAir: true
+shootType: {
+type: LaserBulletType
+colors: ["98ffa9", "98FFA9", "FFFFFF"]
+length: 550
+damage: 3500
+splashDamageRadius: 30
+width: 60
+lifetime: 60
+lightningSpacing: 40
+lightningLength: 40
+lightningDelay: 1.1
+lightningLengthRand: 70
+lightningDamage: 200
+lightningAngleRand: 40
+largeHit: true
+lightColor: 98ffa9
+lightningColor: 98ffa9
+collidesGround: true
+collidesAir: true
+collidesTiles: true
+collidesTeam: true
+sideAngle: 15
+sideWidth: 0
+sideLength: 0
+healPercent: 50
+hitSound: spark
+fragBullets: 5
+fragCone: 100
+status: {
+name: stunned
+speedMultiplier: 0.001
+healthMultiplier: 0.9
+disarm: true
+}
+statusDuration: 150
+fragBullet: {
+type: LightningBulletType
+lightningColor: 98ffa9
+lightningLength: 25
+healPercent: 30
+damage: 100
+collidesAir: true
+collidesGround: true
+collidesTeam: true
+}
+}
+coolantMultiplier: 1.5
+coolantUsage: 4
+consumes: {
+liquid: {
+liquid: ledonite
+amount: 0.6
+optional: false
+booster: true
+}
+}
+category: turret
+research: foreshadow
