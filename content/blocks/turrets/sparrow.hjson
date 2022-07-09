@@ -5,6 +5,7 @@ graphite/60
 titanium/45
 ]
 category: turret
+outlineColor: 1d1d21
 shootType: {
 type: LightningBulletType
 damage: 50

@@ -5,6 +5,7 @@ creostone/180
 silicon/150
 titanium/80
 ]
+outlineColor: 1d1d21
 range: 270
 chargeTime: 80
 chargeMaxDelay: 70
