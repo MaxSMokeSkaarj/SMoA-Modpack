@@ -1,7 +1,8 @@
 Log.info('start main');
 var scripts=[
 	"main1",
-	"main2"
+	"main2",
+	"main3"
 ];
 for(var i=0;i<scripts.length;i++){
 	try{

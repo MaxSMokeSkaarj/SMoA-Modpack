@@ -1,0 +1,82 @@
+{
+	type: ItemTurret
+	name: "Volcano"
+	description: "-"
+	health: 4500
+	size: 4
+	recoilAmount: 5
+	reloadTime: 180
+	range: 500
+	ammoUseEffect: casing3
+	shootSound: explosionbig
+	targetAir: false
+	inaccuracy: 5.0
+	rotateSpeed: 2.0
+	ammoTypes: {
+		titanit: {
+			speed: 2.0
+			lifetime: 250
+			damage: 720
+			type: ArtilleryBulletType
+			reloadMultiplier: 1.0
+			width: 10
+			height: 10
+			status: burning
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			fragBullets: 8
+			fragBullet: {
+				width: 5
+				height: 5
+				damage: 20
+				speed: 2.5
+				lifetime: 20
+				splashDamageRadius: 5
+				splashDamage: 5
+				type: ArtilleryBulletType
+				status: burning
+			}
+			ammoMultiplier: 1
+			splashDamageRadius: 50
+			splashDamage: 600
+		}
+		thorium: {
+			speed: 2.0
+			lifetime: 250
+			damage: 440
+			fragBullets: 10
+			fragBullet: {
+				width: 5
+				height: 5
+				damage: 15
+				speed: 3.0
+				lifetime: 20
+				splashDamageRadius: 5
+				splashDamage: 5
+				type: ArtilleryBulletType
+				status: burning
+			}
+			type: ArtilleryBulletType
+			reloadMultiplier: 1.0
+			width: 10
+			height: 10
+			status: burning
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			ammoMultiplier: 1
+			splashDamageRadius: 50
+			splashDamage: 800
+		}
+	}
+	requirements: [
+	   bronze/180
+	   titanit/350
+	   thorium/390
+	   plastanium/380
+	   silicon/230
+	   surge-alloy/125
+	]
+	coolantMultiplier: 0.7
+	category: turret
+	research: mortar
+}

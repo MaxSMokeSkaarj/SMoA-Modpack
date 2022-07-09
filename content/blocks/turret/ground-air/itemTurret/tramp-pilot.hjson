@@ -1,0 +1,52 @@
+{
+    type: ItemTurret
+    name: "Tramp pilot"
+    description: "-"
+    health: 1300
+    size: 2
+    recoilAmount: 0.1
+    reloadTime: 0.333333333
+    range: 150
+    ammoUseEffect: casing1
+    inaccuracy: 90.0
+    rotateSpeed: 10.0
+    ammoTypes: {
+        bronze: {
+            speed: 5.0
+            damage: 50
+            lifetime: 30
+            reloadMultiplier: 1.0
+            width: 7
+            height: 9
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 2
+            backColor: AF8A69
+            frontColor: ffdab9
+        }
+        copper: {
+            speed: 5.0
+            damage: 20
+            lifetime: 30
+            reloadMultiplier: 1.5
+            width: 5
+            height: 9
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 2
+            backColor: FFBE00
+            frontColor: FFBE00
+        }
+    }
+    coolantMultiplier: 0.7
+    requirements: [
+       bronze/20
+       copper/40
+	   lead/20
+	   titanium/40
+    ]
+    category: turret
+    research: cudo
+}

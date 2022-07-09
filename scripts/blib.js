@@ -11,7 +11,8 @@ exports.loadSound = (() => {
 })();
 
 
-exports.aModName = "btm";//你mod的名字
+exports.aModName = "smoa-n";//你mod的名字
+//exports.aModName = "btm";//你mod的名字
 exports.mod = Vars.mods.locateMod(exports.aModName);
 
 exports.newEffect = (lifetime, renderer) => new Effect(lifetime, cons(renderer));

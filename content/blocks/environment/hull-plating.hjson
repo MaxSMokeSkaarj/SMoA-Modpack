@@ -1,5 +1,0 @@
-type: Floor
-name: Hull Plating
-variants: 6
-itemDrop: wolframite
-playerUnmineable: true

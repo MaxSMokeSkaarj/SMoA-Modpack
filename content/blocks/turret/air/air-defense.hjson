@@ -1,0 +1,52 @@
+{
+	name: "Air defense"
+	description: "-"
+	type: ItemTurret
+	range: 350
+	recoilAmount: 1
+	reloadTime: 10
+	ammoUseEffect: casing1
+	size: 3
+	health: 1600
+	targetGround: false
+	inaccuracy: 5
+	rotateSpeed: 3.0
+	ammoTypes: {
+		bronze: {
+			speed: 25.0
+			lifetime: 14
+			damage: 100
+			reloadMultiplier: 1.0
+			lifetime: 14
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			width: 3
+			height: 5
+			inaccuracy: 2
+			backColor: AF8A69
+			frontColor: ffdab9
+			ammoMultiplier: 2
+		}
+		titanit: {
+			speed: 20.0
+			lifetime: 17
+			damage: 200
+			reloadMultiplier: 0.6
+			ammoMultiplier: 2
+			lifetime: 17
+			width: 3
+			height: 5
+			frontColor: 276468
+			backColor: 2A5C60
+		}
+	}
+	coolantMultiplier: 0.7
+	requirements: [
+		titanit/90
+		bronze/80
+		silicon/50
+		lead/60
+	]
+	category: turret
+	research: storm
+}

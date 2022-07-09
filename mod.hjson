@@ -1,8 +1,8 @@
 {
   name: "smoa-n"
   displayName: "[orange]SMoke [green]of [purple]Anarchy[] [white]New[]"
-  description: "Enjoy which a lot of content, includes:\nADC(Sapphirium), \nUnits-Mod, \nExotic Mod\nAttention! All copyrights are reserved for the creators of mods. I am NOT the owner of these mods!"
-  author: "[#FFA500]Max[#00FF00]SM[#FF00FF]oke"
-  version: 3
+  description: "Enjoy which a lot of content, includes:\nADC(Sapphirium), \nUnits Mod, \nTurrets Mod\nAttention! All copyrights are reserved for the creators of mods. I am NOT the owner of these mods!"
+  author: "[#FFA500]Max[#00FF00]SM[#FF00FF]oke, [#3b8f65]Snake"
+  version: 3.1
   minGameVersion: 105
 }

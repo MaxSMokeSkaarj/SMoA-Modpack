@@ -1,0 +1,43 @@
+{
+	name: "Hell turret"
+	type: LaserTurret
+	health: 9800
+	size: 4
+	recoilAmount: 0
+	range: 250
+	reloadTime: 0.5
+	powerUse: 200.0
+	inaccuracy: 0.0
+	rotateSpeed: 0.5
+	shootCone: 5
+	firingMoveFract: 0.5
+	shootDuration: 250
+	buildCostMultiplier: 8.0
+	shootType: {
+		type: ContinuousLaserBulletType
+		damage: 230
+    hitEffect: hitMeltdown
+    despawnEffect: none
+    hitSize: 18
+    lifetime: 40
+    drawSize: 400
+    collidesAir: true
+	}
+	shootEffect: shootBigSmoke2
+	shootShake: 2
+	shootSound: laserbig
+  loopSound: beam
+  loopSoundVolume: 2
+	requirements: [
+		titanit/780
+		surge-alloy/110
+		metaglass/120
+		graphite/140
+		plastanium/375
+		thorium/130
+		silicon/100
+		cryocrystal/60
+	]
+	category: turret
+	research: laser-turret
+}
