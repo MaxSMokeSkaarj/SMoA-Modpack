@@ -8,7 +8,6 @@ weakened.healthMultiplier = 0.80;
 weakened.damageMultiplier = 0.80;
 weakened.reloadMultiplier = 0.80;
 weakened.color = Pal.gray;
-exports.weakened = weakened;
 
 const superMelting = extendContent(StatusEffect, "super-melting", {
 init(){
@@ -37,7 +36,6 @@ this.affinity(StatusEffects.burning, ((unit, time, newTime, result) => {
         superMelting.damage = 0.10;
         superMelting.effect = Fx.melting;
         superMelting.color = Color.valueOf("dd6f58");
-        exports.superMelting = superMelting;
         
         const superFreezing = extendContent(StatusEffect, "super-freezing", {
 init(){
@@ -60,4 +58,9 @@ this.affinity(StatusEffects.freezing, ((unit, time, newTime, result) => {
         superFreezing.damage = 0.5;
         superFreezing.effect = Fx.freezing;
         superFreezing.color = Color.valueOf("6fdded");
-        exports.superFreezing = superFreezing;
+        
+module.exports = {
+	weakened: weakened,
+	superMelting: superMelting,
+	superFreezing: superFreezing,
+	}

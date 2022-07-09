@@ -53,7 +53,7 @@ const multi = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafte
 });
 
 /**This is not my code, its belongs to sharlotte-mobile/ExampleMod*/
-const creostoneProjector = new JavaAdapter(ForceProjector, {
+const creostoneProjector = extend(ForceProjector, "creotite-wall-huge", {
   drawPlace(x, y, rotation, valid){
     Draw.color(Vars.player.team().color.cpy().mul(1, 0.75, 0.25, 1));
     Lines.stroke(1);
@@ -64,7 +64,7 @@ const creostoneProjector = new JavaAdapter(ForceProjector, {
     Lines.square(x * Vars.tilesize + this.offset, y * Vars.tilesize + this.offset, this.radius + this.phaseRadiusBoost);
     Draw.color();
   }
-}, "creostone-wall-huge");
+});
 
 creostoneProjector.consumes.add(new ConsumeLiquidFilter(liquid => liquid.temperature <= 1 && liquid.flammability < 1.3, 0.5)).boost().update(false);
 creostoneProjector.consumes.item(Items.phaseFabric, 1).boost().update(false);
